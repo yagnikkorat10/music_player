@@ -1,0 +1,24 @@
+name: music_player
+description: Companion project for tutorial on audio_service plugin.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audio_video_progress_bar: ^2.0.3
+  get_it: ^8.0.3
+  just_audio: ^0.9.44
+  audio_service: ^0.18.16
+
+dev_dependencies:
+  flutter_lints: any
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
